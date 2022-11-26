@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+
+
+/*//结构体
+#include<string.h>
+struct Book
+{
+    char name[20];//名字
+    short price;//定价55
+};//分号是结束定义的
+int main()
+{
+    //李勇结构体类型创建一个这样的结构体变量
+    struct Book b1={"c语言程序设计",55};
+    struct Book* pb=&b1;
+    //利用pb打印书名和价格
+    //.   结构体变量.成员
+    //->  结构体指针->成员
+    printf("%s\n",pb->name);
+    printf("%d\n",pb->price);
+    //printf("%s\n",(*pb).name);//%s是数组
+    //printf("%d\n",(*pb).price);
+
+    //printf("书名:%s\n",b1.name);
+    //printf("价格:%d\n",b1.price);
+    
+    //strcpy(b1.name,"C++");//strcpy-字符串拷贝-库函数-string.h
+    //b1.price=15;
+    //printf("修改后的价格:%d\n",b1.price);
+    return 0;
+}*/
+
+
+
+
+
+/*//指针
+int main()
+{
+    int a = 10;//申请4个字节的空间
+    int* p=&a;//p是一个指针变量
+    //printf("%p\n",&a);//%p是取地址的
+    //printf("%p\n",p);
+    *p=30;
+    //printf("a=%d\n",a);
+    printf("a=%d\n",*p);//等价
+    return 0;
+}*/
